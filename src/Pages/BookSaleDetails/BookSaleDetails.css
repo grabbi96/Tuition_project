@@ -1,0 +1,66 @@
+.wowow {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.single-rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.single-top-left h6 {
+  font-size: 2em;
+  color: #353f49;
+  font-weight: 700;
+  font-family: "Bree Serif", serif;
+}
+.single-rating p,
+.single-rating a {
+  border: 1px solid #444;
+  padding: 1px 18px;
+  border-radius: 5px;
+}
+.single-rating a {
+  margin: 0;
+}
+.btn_form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+a.theme-solid-button.sm.m {
+  padding: 10px 32px;
+  line-height: 13px;
+}
+ul.size,
+ul.color {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 0 25px;
+  margin-bottom: 10px !important;
+}
+ul.size p,
+ul.color p {
+  margin-bottom: 0;
+}
+.accordion__title {
+  text-align: center;
+}
+.accordion__title h3 {
+  font-size: 25px;
+}
+.book-accortion {
+  padding-bottom: 100px;
+}
+.book-sell-details-section {
+  padding-top: 100px;
+}
+.accordion {
+  width: 100%;
+  margin-top: 25px;
+}

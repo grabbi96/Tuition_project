@@ -1,0 +1,14 @@
+.register-btn-area i {
+  margin-right: 15px;
+}
+
+.register-btn-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-btn-area a.btn.theme-line-button {
+  width: 270px;
+}

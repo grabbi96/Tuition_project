@@ -1,0 +1,107 @@
+.bookSubject {
+  background-color: #f3f3f3;
+  margin-bottom: 20px;
+}
+
+.bookSubjectCaption {
+  background-color: #d8d8d8;
+  height: 30px;
+  overflow: hidden;
+}
+
+.bookSubject i {
+  font-size: 50px;
+  margin: 35px;
+  color: #a6cb78;
+}
+
+.bookSubjectCaption h2 {
+  color: #444546;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.dropdown-list-area {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+.dropdown-list-area .btn-primary.dropdown-toggle {
+  background-color: #274a70 !important;
+}
+
+.dropdown-list-area .btn-unique {
+  background-color: #274a70 !important;
+}
+
+.dropdown-list-area.subcategory {
+  box-shadow: 0px 0px 9px #ddd;
+  padding-right: 20px;
+}
+
+.dropdown-list-area.subcategory .btn-primary.dropdown-toggle {
+  background-color: #fff !important;
+  color: #444 !important;
+  box-shadow: none;
+}
+
+.dropdown-list-area .btn-primary.dropdown-toggle:first-child {
+  margin-left: 0;
+}
+
+.booksale-cover-section .tab-content {
+  padding: 0;
+}
+
+button.btn.btn-primary.Ripple-parent.dropdown-toggle {
+  padding: 8px 47px;
+}
+
+.dropdown-list-area.subcategory button.btn.btn-primary.Ripple-parent.dropdown-toggle {
+  padding: 8px 46px;
+}
+
+.dropdown-list-area.subcategory .md-form {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dropdown-list-area.subcategory .btn-primary.dropdown-toggle {
+  background-color: #274a70 !important;
+  color: #fff !important;
+}
+
+.dropdown-list-area .md-form {
+  margin-bottom: 0;
+}
+
+.booksoring-filter {
+}
+
+.booksoring-filter .card-header h5 {
+  text-align: left;
+  color: #363636;
+  line-height: 20px;
+  padding: 15px 15px 17px;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0;
+}
+
+.booksoring-filter .card-header {
+  padding: 0;
+  background: inherit;
+}
+
+.booksoring-filter .card-body {
+  padding: 0.25rem 20px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.sblink {
+  display: block;
+}

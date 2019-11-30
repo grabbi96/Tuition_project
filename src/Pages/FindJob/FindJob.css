@@ -1,0 +1,177 @@
+.job-find-section {
+  background-color: #f4f4f4;
+  padding: 25px 0;
+}
+
+h3.panel-heading {
+  font-size: 20px;
+  line-height: 1.1;
+  margin-top: 0;
+  padding: 12px;
+  text-align: center;
+  background: #274a70;
+  color: #ffffff;
+  font-weight: 900;
+  border-radius: 0;
+}
+
+.job-find-section .form-group label {
+  color: #1f2c44;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.job-find-section .job_board_label {
+  margin-bottom: 10px !important;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left !important;
+}
+
+.sidebar-body {
+  background: #fff;
+  padding: 10px;
+}
+
+.styled-input-single {
+  position: relative;
+  padding: 0px 0 0px 20px;
+  text-align: left;
+}
+
+.styled-input-single input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+label.input-label-radio:before,
+label.input-label-checkbox:before {
+  left: 0;
+  width: 12px;
+  height: 12px;
+  margin: -8px 0 0;
+  background: #e2e0e0;
+}
+
+label.input-label-checkbox:before,
+label.input-label-checkbox:after {
+  border-radius: 0;
+}
+
+label.input-label-radio:before,
+label.input-label-radio:after,
+label.input-label-checkbox:before,
+label.input-label-checkbox:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+}
+
+.styled-input-single input[type="radio"]:checked + label.input-label-radio:after,
+.styled-input-single input[type="checkbox"]:checked + label.input-label-checkbox:after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  content: "";
+}
+
+input[type="checkbox"].styled:checked + label:after,
+input[type="radio"].styled:checked + label:after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+
+label.input-label-radio:after,
+label.input-label-checkbox:after {
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  margin: -8px 0 0;
+  opacity: 0;
+  background: #274a70;
+  -webkit-transform: translate3d(-40px, 0, 0) scale(0.5);
+  transform: translate3d(-40px, 0, 0) scale(0.5);
+  -webkit-transition: opacity 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+.job-find-section .client-post-item button.btn.btn-outline-info.apply-btn {
+  width: 143px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.client-post-item {
+  background: #fff;
+}
+
+.find-tuition-title {
+  background: #e9ecef;
+  padding: 6px 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.find-tuition-title h4 {
+  margin-bottom: 0;
+}
+
+.apply-btn-area {
+  padding-top: 36px !important;
+}
+
+.job-find-section ul.job-def li {
+  display: -webkit-flex;
+  display: flex;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.apply-btn-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.job-find-section .client-post-item button.btn.btn-outline-info.apply-btn {
+  width: 143px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.find-job-button-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-job-button-area button {
+  padding: 5px 10px;
+}
+
+/* [type="radio"]:not(:checked), [type="radio"]:checked {
+  opacity: 1 !important;
+} */
+.apply-btn-area button {
+  padding: 8px 0 !important;
+}
+
+.input-group-text {
+  width: 128px;
+}

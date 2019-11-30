@@ -1,0 +1,29 @@
+.custom-select,
+.form-control {
+  border-width: 2px;
+  display: block !IMPORTANT;
+}
+
+.confirm-books-area .cancel-content h5 {
+  font-size: 14px;
+}
+
+.confirm-books-area .cancel-content h3 {
+  font-size: 15px;
+}
+
+.confirm-books-area .cancel-thumb {
+  height: 50px;
+  width: 40px;
+}
+
+.confirm-books-area .cancel-item {
+  padding: 10px 15px;
+  margin: 5px 0;
+}
+
+.total-price-area {
+  border-top: 2px solid #ddd;
+  margin-top: 15px;
+  padding-top: 8px;
+}

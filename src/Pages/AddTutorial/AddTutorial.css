@@ -1,0 +1,7 @@
+.url-input {
+  display: flex;
+}
+
+.url-input .md-form.md-outline {
+  width: 90%;
+}

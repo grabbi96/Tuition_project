@@ -1,0 +1,287 @@
+/* Header Scss */
+.header-wrapper {
+  position: relative;
+}
+
+.top-header.bg-one {
+  background: #274a70;
+}
+
+.header-wrapper .top-header .left-list ul li {
+  margin-right: 30px;
+  position: relative;
+}
+
+.header-wrapper .top-header ul li {
+  display: inline-block;
+  line-height: 28px;
+  vertical-align: middle;
+}
+
+.header-wrapper .top-header ul li a {
+  color: #fff;
+  position: relative;
+}
+
+.header-wrapper .top-header .right-list ul li {
+  margin-left: 10px;
+}
+
+.header-wrapper .top-header {
+  padding: 0px 0;
+}
+
+.header-wrapper .top-header .right-list ul.social-icon li {
+  margin-left: 25px;
+}
+
+header .theme-menu-wrapper {
+  padding: 0px 0;
+}
+
+header .theme-menu-wrapper .main-content-wrapper {
+  position: relative;
+}
+
+header .theme-menu-wrapper .logo {
+  margin-top: 3px;
+}
+
+#mega-menu-wrapper {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  min-height: auto;
+  text-align: center;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#mega-menu-wrapper .nav > li {
+  display: inline-block;
+}
+
+#mega-menu-wrapper .nav > li > a {
+}
+
+a.waves-effect.waves-light {
+  font-family: "Noto Sans", sans-serif;
+  position: relative;
+  font-size: 15px;
+  color: #222222;
+  background: transparent;
+  text-transform: capitalize;
+  margin: 0 12px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar {
+  box-shadow: none !important;
+  font-weight: 300;
+}
+
+.nav li.join-us a {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  padding: 0 45px;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+a.waves-effect.waves-light:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  opacity: 0;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  background: #274a70;
+}
+
+a.waves-effect.waves-light:hover:after {
+  opacity: 1;
+  width: 100%;
+}
+
+a.waves-effect.waves-light.active:after {
+  opacity: 1;
+  width: 100%;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.control-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.control-block .author-thumb {
+  margin-right: 8px;
+  position: unset;
+}
+
+.author-thumb img {
+  overflow: hidden;
+  max-width: unset;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.04);
+}
+
+.author-thumb .icon-status {
+  position: absolute;
+  margin-right: 0;
+  top: 0;
+  left: 0;
+  border: 1px solid #3f4257;
+  width: 8px;
+  height: 8px;
+}
+
+.icon-status {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.icon-status.online {
+  background-color: #32e4cd;
+}
+
+.control-block .more-dropdown {
+  width: 230px;
+  top: calc(100% + 5px);
+  right: -30px;
+  padding: 0;
+}
+
+.control-block:hover .more-dropdown {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.control-block .author-title {
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+}
+
+.author-name p {
+  font-size: 8px;
+  color: #fff;
+  margin: 0;
+}
+
+.author-name {
+  margin-right: 10px;
+}
+
+.author-arrow-option {
+  margin-bottom: 15px;
+}
+
+.author-arrow-option i {
+  font-size: 8px;
+  color: #fff;
+}
+
+.ui-block-title {
+  padding: 23px 25px 18px;
+  line-height: 1;
+  border-bottom: 1px solid #e6ecf5;
+  border-top: 1px solid #e6ecf5;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+.ui-block-title:first-child {
+  border-top: none;
+}
+
+.ui-block-title.ui-block-title-small {
+  padding: 10px 25px;
+}
+
+.ui-block-title.ui-block-title-small .title {
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #9a9fbf;
+  margin: 0;
+}
+
+.control-block .account-settings {
+  padding: 15px 25px;
+  margin-bottom: 0;
+}
+
+.control-block .account-settings li a i {
+  color: #9a9fbf;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.control-block .account-settings li a {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.primary-menu.mobile-top-primary-menu {
+  display: none;
+}
+
+.mobile-top-Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+
+.header-wrapper .btn-secondary.dropdown-toggle {
+  background-color: #274a70 !important;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.header-wrapper .top-header ul li:last-child {
+  margin-right: 0;
+}
+
+.row.align-items-center.mbile-ser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

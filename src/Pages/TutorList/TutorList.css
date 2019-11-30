@@ -1,0 +1,28 @@
+.d {
+  width: 100%;
+}
+
+.row.three-row .team-item:hover .team-thumb img {
+  -webkit-transform: scale(0.5) translate(-190px, -205px);
+  transform: scale(0.5) translate(-274px, -205px);
+}
+
+.row.three-row .team-item:hover .team-contant h3 {
+  -webkit-transform: rotate(90deg) translate(-60px, 90px);
+  transform: rotate(90deg) translate(-66px, 147px);
+}
+
+.team-content-overlay a.btn.sm.white {
+  margin-top: 30px !important;
+}
+
+ul.developer-s-info li {
+}
+
+.search-category.tutor-list .input-group.mb-3 {
+  margin-right: 10px;
+}
+
+.search-category.tutor-list .input-group.mb-3:last-child {
+  margin-right: 0;
+}

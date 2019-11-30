@@ -1,0 +1,28 @@
+.root-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.text-primary {
+  color: #274a70 !important;
+}
+
+.spinner-grow {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  vertical-align: text-bottom;
+  background-color: currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-animation: spinner-grow 0.75s linear infinite;
+  animation: spinner-grow 0.75s linear infinite;
+}
+
+.profile-left a.theme-line-button.hhh {
+  padding: 10px 25px;
+  margin-top: 15px;
+  display: inline-block;
+}

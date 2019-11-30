@@ -1,0 +1,31 @@
+.author-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.author-thumb {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 150px;
+  border: 3px solid #ddd;
+}
+
+.author-thumb i {
+  font-size: 40px;
+}
+
+.category-item {
+  background: #274a70;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.category-item h4 {
+  font-size: 16px;
+  color: #fff;
+}

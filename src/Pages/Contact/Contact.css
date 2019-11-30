@@ -1,0 +1,8 @@
+ul.social-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ul.social-nav li {
+  margin: 0 5px;
+}

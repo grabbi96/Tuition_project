@@ -1,0 +1,208 @@
+section.profile-sitting-section {
+  background: #dfdfdf;
+}
+
+nav.nav.nav-tabs .nav-link {
+  padding: 5px 0;
+  background: #fff;
+  margin: 5px;
+  box-shadow: 3px 3px 3px #ddd;
+  padding: 8px 20px;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+.profile-sitting-section h6 {
+  margin: 0;
+}
+
+.profile-sitting-section .card {
+  margin-bottom: 25px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background: #274a70 !important;
+  color: #fff;
+}
+
+.status-time-btn-area.text-right {
+  margin-bottom: 20px;
+}
+
+.status-content {
+  background: #fff;
+  padding: 20px 25px;
+}
+
+.box {
+  background: #ddd;
+  padding: 15px;
+}
+
+.box h6 {
+  font-weight: 700 !important;
+}
+
+.status-title {
+  padding: 15px;
+}
+
+.quiz-item {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.quiz-item h6 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.profile-sitting-section .custom-control {
+  margin-bottom: 0;
+}
+
+.pi-section {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.forbg i {
+  font-size: 60px;
+  color: #cacaca;
+}
+
+.col-lg-8.forbg {
+  background: #fff;
+  padding: 100px;
+}
+
+.section-padding-50 {
+  padding: 50px 0;
+}
+
+.section-padding-20 {
+  padding: 20px 0;
+}
+
+.react-countdown-clock {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999999999999;
+}
+
+.new-teacher-sitting {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.new-teacher-sitting nav.nav.nav-tabs .nav-link {
+  width: 100%;
+}
+
+.new-teacher-sitting nav.nav.nav-tabs .nav-link {
+  background: #fff;
+  margin: 5px;
+  box-shadow: 0px 0px 1px #000;
+  padding: 8px 13px;
+  border-radius: 0;
+  margin-bottom: 1px;
+  color: #000;
+  font-weight: 500;
+}
+
+.new-teacher-sitting nav.nav.nav-tabs {
+  width: 25%;
+}
+
+.new-teacher-sitting .tab-content {
+  width: 75%;
+}
+
+.tab-content {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+body .theme-solid-button {
+  border-radius: 5px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background: #274a70 !important;
+  color: #fff !important;
+}
+
+.react-countdown-clock {
+  position: fixed;
+  top: 211px;
+  right: 307px;
+  z-index: 999999999999;
+}
+
+.udb-sec.udb-prof h4 {
+  background: #274a70;
+  color: #fff;
+  padding: 15px;
+}
+
+li.default-colum {
+  display: flex;
+  border: 1px solid #ddd;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+li.default-colum span.colum-name {
+  background: #e9ecef;
+  width: 25%;
+  font-weight: 500;
+  border-radius: 5px 0px 0px 5px;
+}
+
+li.default-colum span {
+  padding: 8px 0;
+  padding-left: 15px;
+}
+textarea.form-control {
+  height: 150px;
+}
+.accademic-sitting .card-body{
+  padding: 0;
+}
+.accademic-sitting .table {
+  width: 100%;
+  margin-bottom: 0; 
+}
+.card.input-ffrm {
+  padding: 20px;
+}
+.profile-sitting-section .card {
+  margin-bottom: 10px;
+}
+.md-form.md-outline label{
+  font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  li.default-colum span.colum-name {
+    width: 39%;
+
+  }
+
+  li.default-colum span {
+    font-size: 13px;
+  }
+
+  .profile-left {
+    text-align: center;
+  }
+}

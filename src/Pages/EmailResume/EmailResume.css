@@ -1,0 +1,19 @@
+.panel-heading.panel-heading-01 {
+  background: #274a70;
+  padding: 10px 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.col-md-12.text-center {
+  margin: 50px 0;
+}
+
+.panel-body-02 {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+tr.trtr {
+  border-bottom: 1px solid #ddd;
+}

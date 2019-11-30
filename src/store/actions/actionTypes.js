@@ -1,0 +1,51 @@
+export const SET_USER = "SET_USER"
+export const LOADING_STATE = "LOADING_STATE"
+export const CATCH_ERROR = "CATCH_ERROR"
+export const SET_TOAST_MESSAGE = "SET_TOAST_MESSAGE"
+export const LOGOUT = "LOGOUT"
+export const REGISTRATION = "REGISTRATION"
+export const GET_CATEGORY = "GET_CATEGORY"
+export const GET_CONTRIBUTION = "GET_CONTRIBUTION"
+export const SET_COMMONSYNC = "SET_COMMONSYNC"
+export const GET_EDUCATION = "GET_EDUCATION"
+export const GET_EXPERIENCE = "GET_EXPERIENCE"
+
+export const SET_BOOKS = "SET_BOOKS"
+
+export const GET_TUTORIAL = "GET_TUTORIAL"
+
+export const GET_TRAINING = "GET_TRAINING"
+
+export const SET_TUTOR = "SET_TUTOR"
+
+export const SET_ANSWER = "SET_ANSWER"
+
+export const SET_QUESTION = "SET_QUESTION"
+
+export const SET_STUDY = "SET_STUDY"
+
+export const GET_ADMIN_TUITION = "GET_ADMIN_TUITION"
+
+export const GET_REQUEST_TUITION = "GET_REQUEST_TUITION"
+
+export const SET_TUITIONS = "SET_TUITIONS"
+
+export const GET_POPULAR = "GET_POPULAR"
+
+export const GET_POPULAR_TABLE = "GET_POPULAR_TABLE"
+
+export const GET_TUTORIAL_LIST = "GET_TUTORIAL_LIST"
+
+export const SET_INSTITUTION = "SET_INSTITUTION"
+
+export const SET_ACTIVE_TUTOR = "SET_ACTIVE_TUTOR"
+
+export const SET_BOOKS_CATEGORY = "SET_BOOKS_CATEGORY"
+
+export const SET_BOOKS_SUB_CATEGORY = "SET_BOOKS_SUB_CATEGORY"
+
+export const GET_TUITION_USERS = "GET_TUITION_USERS"
+
+export const SET_SKILLS = "SET_SKILLS"
+
+export const SET_CART_BOOK = "SET_CART_BOOK"

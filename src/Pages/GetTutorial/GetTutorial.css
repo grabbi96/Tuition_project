@@ -1,0 +1,120 @@
+.tutorial-search-header {
+  width: 100%;
+  padding: 0 0 20px;
+}
+.search-category {
+  display: flex;
+}
+.category-header {
+  background: #fff;
+  padding: 12px 0 4px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  width: 100%;
+}
+.category-items {
+  width: 100%;
+}
+.row.category-main-item {
+  width: 100%;
+}
+.product-item {
+  box-shadow: 0px 0px 2px 1px #ddd;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.product-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.product-overly {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+.product-overly .view {
+  opacity: 0;
+  transform: translate(-186px);
+  background-color: #c0392b;
+}
+
+.product-overly .view,
+.product-overly .order {
+  padding: 12px 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  transition: 1s;
+}
+.product-overly .order {
+  opacity: 0;
+  transform: translate(186px);
+  background-color: #3498db;
+}
+.product-thumb:hover .product-overly .view,
+.product-thumb:hover .product-overly .order {
+  opacity: 1;
+  transform: translate(0);
+}
+.product-thumb:hover .product-overly .view,
+.product-thumb:hover .product-overly .order {
+  opacity: 1;
+  transform: translate(0);
+}
+.product-content {
+  padding: 25px 20px;
+}
+.product-content-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+main.category-main-area.tutorials-section .product-top-content {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+main.category-main-area.tutorials-section .product-top-content div {
+  text-align: center;
+}
+main.category-main-area.tutorials-section .product-top-content div img {
+  border-radius: 100%;
+}
+.star-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.star-list li {
+  padding: 0 2px;
+}
+.star-list li a i {
+  color: gold;
+}
+.star-list li a i {
+  font-size: 20px;
+}
+
+.product-content-top a i {
+  line-height: 40px;
+  font-size: 20px;
+}
+main.category-main-area .product-content-bottom {
+  padding: 17px 0 0;
+}
+
+.product-content-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  margin-bottom: 10px;
+}
+.product-content-button {
+  text-align: center;
+}

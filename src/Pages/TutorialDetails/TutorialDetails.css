@@ -1,0 +1,264 @@
+section.tutorial-banner-section {
+  width: 100%;
+  background: url("http://www.bengalsoftware.com/assets/images/tutorial/tutorial-bg.jpg") no-repeat center center/cover;
+}
+
+.tutorial-banner-content {
+  margin-top: 111px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.tutorial-banner-content img {
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+section.tutorial-tab-section {
+  padding: 50px 0;
+}
+
+.tutorial-tab {
+  width: 100%;
+}
+
+.hire-profile {
+  border: 2px solid #ddd;
+  padding: 25px 10px;
+  text-align: center;
+}
+
+.hire-profile img {
+  text-align: center;
+  width: 88%;
+  margin: 0 auto;
+  display: inherit;
+  background: #fff;
+  border: 2px solid #999;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.hire-profile .hire-btn {
+  padding: 5px 30px;
+  color: #fff;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.social-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+
+.hire-profile .social-link-list li:nth-child(1) {
+  background: #3d5999;
+}
+
+.hire-profile .social-link-list > li {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.hire-profile .social-link-list li:nth-child(2) {
+  background: #60a9dd;
+}
+
+.hire-profile .social-link-list li:nth-child(3) {
+  background: #0777b6;
+}
+
+.hire-profile .social-link-list li a {
+  color: #fff;
+}
+
+.others-service {
+  border: 1px solid #4444;
+  margin: 25px 0;
+}
+
+.others-service ul {
+  text-align: center;
+}
+
+.others-service ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+}
+
+.others-service ul li p {
+  margin: 0;
+}
+
+.others-service ul li span {
+  color: #999;
+}
+
+.porfolio-show ul li a {
+  width: 100%;
+  margin: 5px 0;
+}
+
+section.tutorial-tab-section iframe {
+  max-width: 426px;
+  height: 250px;
+  float: left;
+  margin-right: 12px;
+}
+
+.learning-info {
+  display: flex;
+  background: #f1f1f1;
+  border: 2px solid #ddd;
+  padding: 20px 15px;
+  flex-wrap: wrap;
+}
+
+.learning-info h2 {
+  width: 100%;
+}
+
+.learning-item {
+  width: 50%;
+  padding-right: 5px;
+}
+
+.learning-item ul li {
+  margin: 14px 0;
+}
+
+.learning-item ul li i {
+  margin-right: 7px;
+}
+
+.custom-select {
+  display: block !important;
+}
+
+section.tutorial-tab-section iframe {
+  max-width: 100%;
+  height: 390px;
+  float: left;
+  margin-right: 12px;
+}
+
+.md-accordion .card .card-header {
+  border-bottom: 0;
+  padding: 0rem 1.5rem;
+  background: transparent;
+}
+
+.main-video-item.w-100 {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.video-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0px 0px 7px #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.video-list h4 {
+  margin: 0;
+}
+
+.video-list i {
+  font-size: 25px;
+}
+
+ul.comment-lists {
+  margin-top: 5px !important;
+}
+
+ul.comment-lists > li {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+
+.root-comment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-info {
+  display: flex;
+  width: 30%;
+}
+
+.review-area {
+  width: 70%;
+}
+
+.user-info-thumb {
+  width: 50px;
+  margin-right: 25px;
+}
+
+.user-info-thumb img {
+  border-radius: 100%;
+}
+
+.md-accordion .card .fa-angle-down {
+  float: right;
+  font-size: 20px;
+  color: #274a70 !important;
+}
+
+.md-accordion .card .fa-angle-up {
+  float: right;
+  font-size: 20px;
+  color: #274a70 !important;
+}
+
+.md-accordion .card .card-header {
+  padding: 1rem 1.5rem;
+  border-radius: 0;
+  border: solid 1px #e8e9eb;
+  background: #274a70;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.md-accordion .card .card-header h3 {
+  font-size: 16px;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.card-body {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0.25rem 0;
+}
+
+.comment-root {
+  background: #ddd;
+  padding: 20px;
+}
+
+.comment-form {
+}
+
+.skills li {
+  background-color: #274a70;
+  color: #fff;
+}

@@ -1,0 +1,26 @@
+.cancel-item {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 20px 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 16px #ddd;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+
+.cancel-content {
+  width: 50%;
+}
+
+.cancel-thumb {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+a.bg-color.theme-line-button {
+  display: inline-block;
+}
+.confirm-books-area {
+  padding-top: 40px;
+}

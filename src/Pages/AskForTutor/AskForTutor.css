@@ -1,0 +1,13 @@
+section.askfortutor-section {
+  background: #f4f4f4;
+}
+.aft-main {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+.section-header {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}

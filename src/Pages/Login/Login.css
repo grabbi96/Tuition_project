@@ -1,0 +1,12 @@
+.login-form {
+  max-width: 450px;
+  margin: 60px auto 30px;
+}
+
+.login-form .card-header {
+  padding: 2px 1.25rem;
+}
+
+.login-form .card-body {
+  padding: 20px;
+}

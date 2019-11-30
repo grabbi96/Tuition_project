@@ -1,0 +1,159 @@
+.profile-left {
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 5px 18px -11px rgba(150, 150, 150, 0.8);
+}
+
+.profile-left img {
+  margin-bottom: 15px;
+}
+
+.profile-left h3,
+.profile-left ul li {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ul.social-list {
+  display: flex;
+  margin-top: 20px !important;
+}
+
+ul.social-list li {
+  width: 40px;
+  height: 40px;
+  background: #274a70;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+ul.social-list li a {
+  color: #fff;
+}
+
+.udb {
+  position: relative;
+  overflow: hidden;
+}
+
+.udb-sec {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 35px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 2px;
+  box-shadow: 0px 5px 18px -11px rgba(150, 150, 150, 0.8);
+  border: 1px solid #f3f2f2;
+}
+
+.udb-sec h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeef;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #203245;
+}
+
+.sdb-tabl-com tr {
+  color: #969595;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.sdb-tabl-com tr td {
+  font-size: 15px;
+  color: #333;
+  padding: 14px 14px 14px 0px;
+}
+
+.sdb-bot-edit {
+  margin-top: 25px;
+}
+
+section.teacher-profile-section.section-padding {
+  background: #f4f4f4;
+}
+
+.profile-left li.list-group-item {
+  padding: 5px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.edu-main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edu-main ul li.d-flex {
+  width: 100%;
+  font-size: 13px;
+}
+
+.edu-main ul li.d-flex p {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.profile-left h3,
+.profile-left ul li {
+  color: #000;
+}
+
+.close-edu {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.profile-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-buttons a {
+  height: 50px;
+  line-height: 24px;
+  margin: 10px;
+}
+
+@media print {
+  .myDivToPrint {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    z-index: 9999999;
+  }
+
+  .hhh {
+    display: none;
+  }
+}
+
+a.theme-line-button.hhh {
+  padding: 15px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+.pro-pic img {
+  width: 150px;
+}
+
+.profile-buttons.d-flex {
+  flex-direction: row;
+}
+
+.profile-extra-info {
+  margin-top: 25px;
+}
